@@ -8,6 +8,6 @@ int main(){
         sum=(sum*10)+rem;
         num=num/10;
     }
-    printf("Sum of digits of a number %d",sum);
+    printf("Reverse of a number %d",sum);
     return 0;
 }
