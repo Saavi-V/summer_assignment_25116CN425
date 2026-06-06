@@ -12,4 +12,4 @@ int main(){
     if(num1==sum) printf("Number entered (%d) is a palindrome",num1);
     else printf("Number entered (%d) is not a palindrome",num1);
     return 0;
-}
+} 
