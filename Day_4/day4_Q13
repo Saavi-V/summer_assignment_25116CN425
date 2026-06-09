@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a=0,b=1,c,i,n;
+    printf("Enter terms till which series required\n");
+    scanf("%d",&n);
+    printf("The fibona series is\n0\n1\n");
+    for(i=0;i<n-2;i++){
+          c=a+b;
+          a=b;
+          b=c;
+          printf("%d\n",c);
+    }
+    return 0;
+}
